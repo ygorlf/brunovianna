@@ -1,0 +1,365 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+    font-family: 'SourceSansPro-Regular';
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	left: 50%;
+	z-index: 4;
+
+    transform: translateX(-50%);
+}
+ul{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+    padding: 0;
+ 	
+}
+li{
+	display: flex;
+	background-color: #fff;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+	width: 90px;
+	height: 23px;
+	list-style: none;
+	border-radius: 25px;
+	border: 1px solid #00416d;
+}
+
+h1{
+    font-size: 28px;
+    color: blue;
+
+}
+main{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 3%;
+    position: relative;
+}
+
+.linha{
+    height: 76%;
+    color: #d5d5d5;
+    border: solid 3px;
+    position: absolute;
+    top: -5px;
+    left: 46%;;
+}
+
+.img1{
+ 	width: 100%;
+}
+
+.img3{
+	width: 100%;
+
+}
+.p1{
+    font-size: 16px;
+    color: blue;
+}
+.p2{
+    font-size: 15px;
+    color: blue;
+
+}
+.p3{
+    font-size: 15px;
+    color: blue;
+}
+.p4{
+    color: white;
+    letter-spacing: 0px;
+    font-size:15px;
+    font-family: 'SourceSansPro-Regular'
+}
+
+.p5{
+    color: white;
+    letter-spacing: 0px;
+    font-size: 14px;
+}
+
+.h1{
+    font-family: 'SourceSansPro-Bold';
+    color: blue;
+    letter-spacing: 1px;
+}
+
+.h2{
+    font-family: 'SourceSansPro-Bold';
+    position: relative;
+    left: 5px;
+    top: -8px;
+    color: blue;
+    letter-spacing: 2px;
+    font-size: 22px;
+    padding: 3px;
+    margin: 19px;
+}
+.h3{
+    font-family: 'SourceSansPro-Bold';
+	position: relative;
+    left: 8px;
+    top: 1px;
+    color: blue;
+    letter-spacing: 0px;
+    font-size: 24px;
+    
+}
+
+.h4{
+    position: absolute;
+    left: 28%;
+    top: -4%;
+    color: #f9f9fc;
+    letter-spacing: 0px;
+    font-size: 98%;
+    font-family: 'SourceSansPro-Bold'
+
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 130vh;
+    padding: 10px;
+
+}
+
+.contentPrincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: auto;
+}
+
+.content1{
+    font-family: 'PTMono-Bold';
+    border-radius: 18px;
+    border: solid red;
+    flex-direction: column;
+    width: 30%;
+    height: 392px;
+}
+	
+
+.content2{
+    border-radius: 18px;
+    border: solid red;
+    flex-direction: column;
+    width: 33%;
+    height: 392px;
+}
+.content3{
+    border-radius: 18px;
+    border: solid red;
+    flex-direction: column;
+    width: 33%;
+    height: 392px;
+
+}
+
+.titulo1{
+    font-family: 'PTMono-Bold';
+ 	display: flex;
+    position: absolute;
+    top: 36%;
+    left: 12%;
+    letter-spacing: 3px;
+    color: #ffffff;
+    font-style: normal;
+    line-height: -0.8em;
+    width: 81px;
+    font-size: 5em;
+}
+.titulo2{
+    font-family: 'PTMono-Bold';
+	display: flex;
+    position: absolute;
+    top: 58%;
+    left: 45.52%;
+    color: #ffffff;
+    font-style: normal;
+    line-height: 1.29em;
+    font-size: 2.5em;
+    text-align: left;
+}
+
+
+main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.paragrafoContainer {
+    width: 50%
+}
+
+.prgf1{
+    font-family:'SourceSansPro-Bold';
+    font-size:1.88em; 
+    color:  #1f4ecc; 
+    font-style:  normal; 
+    text-align:  left; 
+    line-height:  1.61em; 
+    letter-spacing:  0em;
+    margin: 10px;
+    padding: 10px;
+    max-width: 338px;
+    border: 0px solid 
+    
+	
+}
+	
+.prgf2 {
+    font-family: 'SourceSansPro-Regular';
+    font-size:  1.25em; 
+    color:  #1f4ecc ;
+    font-style:  normal; 
+    text-align:  left;
+    line-height:  1.07em; 
+    letter-spacing:  0em;
+    margin: 10px;
+    max-width: 344px;
+    border: 0px solid 
+}
+
+.contato {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+
+    background: url('pencil2.jpg') no-repeat center;
+    background-size: cover;
+}
+
+.footer{
+    font-family: 'SourceSansPro-Bold';
+    font-size:1.88em; 
+   /* font-style:  normal;*/ 
+   /* text-align: left ;*/
+    line-height: 1.61em; 
+    /*letter-spacing:  0em;*/
+	border-radius:25px;
+	/*border-style: solid;	*/
+    position: absolute;
+	bottom: 10%;
+    right: 5%;
+    width: 26.84%;
+    height: 26%;
+    /*margin: 23%;*/
+    /*padding: 0px; */
+    background-color: black;
+    opacity: 0.5;
+
+}
+
+.facebook{
+    width:18%;
+    height:28%;
+    border:0; 
+}
+
+.YouTube{
+    width:18%;
+    height:28%;
+    border:0;
+    border-radius: 54%;
+    
+
+}
+header {  
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: url(pencil1.jpg) no-repeat center center fixed;  
+    -webkit-background-size: cover;  
+    -moz-background-size: cover;  
+    -o-background-size: cover;  
+    background-size: cover;  
+}  
+
+@media(max-width: 667px) {
+    /*body {
+       margin: 0;
+       padding:0;
+    }*/ /* seletor css desnecessario */
+
+    
+    .img1{
+    	width: 180%;
+    	height: auto;
+
+    }
+
+    .section1 {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .paragrafoContainer {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .contentPrincipal {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .content1 {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .linha {
+        display: none;
+    }
+
+    header{
+    	width: 100%; /* width: 197%; */
+    	height: 100vh;
+    }
+    
+    nav{
+    	width: 100%;
+    }
+
+    li{
+    	margin: 3px;
+    }
+    .titulo1{
+       top: 41%;
+    left: 23%;
+    width: 81px;
+    font-size: 5em;
+	}
+	.titulo2{
+    position: relative;
+    top: 417px;
+    left: 13%;
+    font-size: 3.5em;
+    
+	}
+
+    .footer {
+        width: 55%
+    }
+}  
